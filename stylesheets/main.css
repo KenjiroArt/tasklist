@@ -1,0 +1,2 @@
+h1{font-size:3rem}.nav-bg{background:#333;position:fixed;width:100%;z-index:99999}.nav-bg #task_form{width:100%;max-width:960px}.nav-bg .navbar{justify-content:flex-start}.nav-bg .navbar input#add_task{width:100%}#task_list{margin-top:80px}.badge-pill{padding:5px 8px;cursor:pointer}.jumbotron{padding-top:2rem;width:100%}@media (max-width: 1024px){#task_list{margin-top:105px}h1{font-size:2rem}}.highlight{background:#bada55}#clear_checked{margin-left:5px}
+/*# sourceMappingURL=main.css.map */
