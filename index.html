@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task List</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-MEq8xmFd953gp2FVvLd8DUEvfBjGCzDjem+gmDqfyyWcaxX4BUD7TtSu1EszNTvK"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+
+<body>
+    <div class="nav-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-dark bg-dark">
+                        <span class="navbar-brand">Add a task</span>
+                        <form class="form-inline" id="task_form">
+                            <input id="add_task" class="form-control" type="text" placeholder="Type task & hit enter">
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="jumbotron" id="task_list">
+                    <h1>Task list</h1>
+                    <p class="lead">Your list of things to do. Add and remove when done!</p>
+                    <hr class="my-4">
+                    <ul class="list-group"></ul>
+                    <hr class="my-4">
+                    <p class="lead">
+                        <button id="clear_checked" class="btn btn-success btn-lg float-right">Clear Checked</button>
+                        <button id="clear_all" class="btn btn-primary btn-lg float-right">Clear All</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
